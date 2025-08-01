@@ -262,6 +262,12 @@
                 <artifactId>data-spinedarray-provider</artifactId>
                 <version>${tinkar-core.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>${tinkar-core.groupId}</groupId>
+                <artifactId>data-rocksdb-provider</artifactId>
+                <version>1.118.0-rocksdb-pilot-SNAPSHOT</version>
+            </dependency>
             <dependency>
                 <groupId>${tinkar-core.groupId}</groupId>
                 <artifactId>data-websocket-client-provider</artifactId>
